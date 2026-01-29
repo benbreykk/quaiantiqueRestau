@@ -1,0 +1,10 @@
+// Include Bootstrap styles
+$primary: #906427; // Custom primary color
+$secondary: #B6AC97; // Custom secondary color
+$dark: #392C1E; // Custom dark color
+$black: #292222; // Custom black color
+
+$font-family-sans-serif: "Montserrat", sans-serif !default; // Custom font family
+$font-family-serif: "Hind Madurai", serif !default; // Custom serif font family
+
+@import "../node_modules/bootstrap/scss/bootstrap";
