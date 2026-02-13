@@ -44,7 +44,14 @@ const LoadContentPage = async () => {
 
     // Changement du titre de la page
     document.title = actualRoute.title + " - " + websiteName;
+
+    // afficher les éléments en fonction du rôle de l'utilisateur
+    showAndHideElementsForRoles();// afficher les éléments en fonction du rôle de l'utilisateur
 };
+
+
+
+
 
 // Fonction pour gérer les événements de routage (clic sur les liens)
 const routeEvent = (event) => {

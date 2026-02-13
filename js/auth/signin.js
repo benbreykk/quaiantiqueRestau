@@ -9,12 +9,10 @@ function checkCredentials() {
 
     if (mailInput.value === "test@mail.com" && passwordInput.value === "test") {
         alert("Connexion réussie !");
-
-        // récupérer le vrai token
-        const token = "zddqdzqdqzdzqd"
-
-        // Stocker le token en tant que cookie
+        const token = "zdadazzaddz"; // Simuler un token d'authentification
         setToken(token);
+        // Stocker le token en tant que cookie
+        setCookie(EoleCookieName, "admin", 7); // Simuler un rôle d'utilisateur
 
         window.location.href = "/account";
     } else {
